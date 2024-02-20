@@ -1,0 +1,17 @@
+.input_text {
+  @apply w-full py-4 px-6 border rounded-xl bg-slate-50;
+}
+.input_text + * {
+  color: #cbd5e1;
+}
+.input_text:focus + * {
+  color: #0d6efd;
+}
+.input_text:not([type="email"]) ~ span:hover * {
+  color: #0d6efd;
+  cursor: pointer;
+}
+.input_group {
+  @apply flex border rounded-xl;
+  position: relative;
+}

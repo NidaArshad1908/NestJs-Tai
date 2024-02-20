@@ -1,0 +1,21 @@
+.container {
+  width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px;
+  /* background-color: aquamarine; */
+}
+.firstRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.width100 {
+  width: 100%;
+}
+.icons {
+  display: flex;
+}
+input.PrivateSwitchBase-input-23 {
+  display: none !important;
+}
